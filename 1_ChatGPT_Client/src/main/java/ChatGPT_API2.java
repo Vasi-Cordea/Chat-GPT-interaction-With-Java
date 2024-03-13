@@ -10,6 +10,8 @@ public class ChatGPT_API2 {
 
 	public static String chatGPT(String prompt) {
 	       String url = "https://api.openai.com/v1/chat/completions";
+
+		//to get an "apiKey" access:  https://platform.openai.com/account/api-keys
 	       String apiKey = "yourApiKeyFromOpenAI";
 	       String model = "gpt-3.5-turbo";
 
