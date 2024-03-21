@@ -62,15 +62,21 @@ public class ChatGPT_API2 {
 
 	       //System.out.println(chatGPT("hello, how are you? is climate change real in 500 words?"));
 	       
-	       //Instantiating the File class
+	      
+		   // create a text file: GPTsample.txt on desktop and add location
+
+		    //Instantiating the File class
 	       File file = new File("C:\\Users\\vasic\\Desktop\\GPTsample.txt");
+		   
 	       //Instantiating the PrintStream class
 	       PrintStream stream = new PrintStream(file);
 	       System.out.println("From now on "+file.getAbsolutePath()+" will be your console");
 	       System.setOut(stream);
+		   
 	       //Printing values to file
-	       System.out.println(chatGPT("hello, how are you? how about space travel in 2000 words with structure?"
-	       		+ "what stock to invest in 2024?"));
+	       System.out.println(chatGPT(
+		       "hello, how are you? how about space travel in 2000 words with structure?"
+	       		+ " in what stock to invest in 2024?"));
 	 
 	       
 	       
