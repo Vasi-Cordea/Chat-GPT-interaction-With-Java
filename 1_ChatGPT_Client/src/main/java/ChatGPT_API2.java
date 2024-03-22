@@ -11,8 +11,8 @@ public class ChatGPT_API2 {
 	public static String chatGPT(String prompt) {
 	       String url = "https://api.openai.com/v1/chat/completions";
 
-		//to get an "apiKey" access:  https://platform.openai.com/account/api-keys
-	       String apiKey = "yourApiKeyFromOpenAI";
+		//to get an "ApiKeyFromOpenAI" from:  https://platform.openai.com/account/api-keys
+	       String apiKey = "ApiKeyFromOpenAI";
 	       String model = "gpt-3.5-turbo";
 
 	       try {
@@ -65,7 +65,7 @@ public class ChatGPT_API2 {
 	      
 		   // create a text file: GPTsample.txt on desktop and add location
 
-		    //Instantiating the File class
+		    //Instantiating the File class, create a text file on your desktop named: GPTsample.txt, 
 	       File file = new File("C:\\Users\\vasic\\Desktop\\GPTsample.txt");
 		   
 	       //Instantiating the PrintStream class
